@@ -37,6 +37,6 @@ production:
   reconnect: false
   database: optimus_production
   pool: 5
-  username: root
-  password:
+  username: optimus
+  password: optimus
   socket: /var/run/mysqld/mysqld.sock
