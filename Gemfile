@@ -5,10 +5,10 @@ gem 'rails', '4.1.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'mysql2', '0.3.11'
 
 gem 'json'
-
+gem "highline"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -22,7 +22,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'foundation-rails'
 
+gem 'devise'
+gem 'newrelic_rpm'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -37,3 +40,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+gem "capistrano", :group => :development
